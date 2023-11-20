@@ -67,7 +67,7 @@ justify-content: space-evenly;
 .box{
     width:330px;
     height:480px;
-    background-color: rgba(255, 0, 0, 0.025);
+    background-color: rgba(255, 0, 0, 0.01);
     margin:20px 10px;
     display: flex;
     justify-content: center;
@@ -102,6 +102,7 @@ justify-content: space-evenly;
     font-size:1.1rem;
     overflow: hidden;
     font-family: 'Hind Siliguri', sans-serif;
+      font-weight:500;
 }
 #writer-name{
     padding:0 20px;
@@ -165,7 +166,7 @@ footer{
     justify-content: center;
     border: 2px solid red;
     border-radius:25px;
-    background-color: rgba(255, 0, 0, 0.025);
+    background-color: rgba(255, 0, 0, 0.01);
 }
 #table h1{
     text-align: center;
@@ -184,6 +185,7 @@ footer{
     font-weight: ;
     font-size: 1.2em;
     line-height:1.8;
+      font-weight:500;
 }
 
 #name-writer{
