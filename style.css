@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+
+/* start of header */
+#navbar{
+    border-bottom:2px solid rgba(255, 0, 0, 0.226);
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width:285px;
+    padding: 20px;
+    filter: drop-shadow(px px #0808085d);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px 0;
+    padding:10px 0;
+}
+.menu li{
+list-style: none;
+}
+
+#navbar input[type=checkbox]{
+    display: none;
+}
+#bars{
+    display: none;
+    user-select: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #000;
+}
+/* end of header */
+
+
+
+/* start of home section */
+.container{
+margin:10px 0;
+padding:10px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+}
+
+.box{
+    width:330px;
+    height:480px;
+    background-color: rgba(255, 0, 0, 0.055);
+    margin:20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 0, 0, 0.767)
+}
+
+#writing{
+    width:295px;
+    height:440px;
+    overflow: hidden;
+}
+#writing h2{
+    font-size:1.4em;
+    font-weight: 600;
+    margin:10px 0px;
+    padding-bottom:10px;
+    text-align: center;
+    border-bottom:2px solid rgba(255, 0, 0, 0.541);
+    font-family: 'Tiro Bangla', serif;
+}
+#big-text{
+    font-size:1.3em !important;
+    margin: 0px;
+    padding: 0px;
+    }
+
+#post{
+    height: 300px;
+    margin:25px 0;
+    font-size:1.1rem;
+    overflow: hidden;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+}
+#writer-name{
+    padding:0 20px;
+    font-weight:600;
+    font-size: 0.9em;
+}
+
+
+
+/* media for 700px */
+@media only screen and (max-width:650px){
+  
+
+    .menu{
+        display: none;
+    }
+
+    
+    /* responsive navbar media */
+  #navbar input[type=checkbox]{
+    display: inline-block;
+    opacity:0;
+   }
+#bars{
+    display: block;
+    float: right;
+    margin:0px 30px;
+}
+
+#navbar input[type=checkbox]:checked ~ .menu{
+    display:flex;
+    height:300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+  } 
+}
+
+
+/* start of footer */
+footer{
+    height:80px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+
+  
+/* ------------------start of 2nd html main writings-------------------------- */
+
+/* ------------------end of 2nd html main writings-------------------------- */
+#room{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+#table{
+    width:600px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius:25px;
+    background-color: rgba(255, 0, 0, 0.055);
+}
+#table h1{
+    text-align: center;
+    padding:25px 0px;
+    border-bottom:2px solid red;
+}
+
+#bag{
+    width:550px;
+    margin:25px 0px;
+}
+
+#main-post{
+    padding:30px 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height:1.8;
+}
+
+#name-writer{
+    margin:15px 35px;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+/* media of secondery page of big post */
+@media only screen and (max-width:620px){
+    #table{
+        width:340px;
+    }
+    #table h1{
+        font-size: 1.4em;
+    }
+    #bag{
+        width:315px;
+    }
+    #main-post{
+        font-size: 1.1em;
+        line-height: 1.9;
+    }
+}
+/* media of secondery page of big post (for more understand.it is the media quaries of "feminism-vs-motherhood.html" and others like this*/
+
+
+
+
+/* css of under development page */
+#underdevelopment{
+    height:68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
