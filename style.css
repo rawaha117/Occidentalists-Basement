@@ -67,7 +67,7 @@ justify-content: space-evenly;
 .box{
     width:330px;
     height:480px;
-    background-color: rgba(255, 0, 0, 0.055);
+    background-color: rgba(255, 0, 0, 0.025);
     margin:20px 10px;
     display: flex;
     justify-content: center;
@@ -165,7 +165,7 @@ footer{
     justify-content: center;
     border: 2px solid red;
     border-radius:25px;
-    background-color: rgba(255, 0, 0, 0.055);
+    background-color: rgba(255, 0, 0, 0.025);
 }
 #table h1{
     text-align: center;
