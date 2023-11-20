@@ -129,7 +129,7 @@ justify-content: space-evenly;
 #bars{
     display: block;
     float: right;
-    margin:0px 30px;
+    margin:20px 30px;
 }
 
 #navbar input[type=checkbox]:checked ~ .menu{
