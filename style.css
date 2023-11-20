@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    overflow: auto;
 }
 
 
@@ -103,7 +102,6 @@ justify-content: space-evenly;
     font-size:1.1rem;
     overflow: hidden;
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 600;
 }
 #writer-name{
     padding:0 20px;
