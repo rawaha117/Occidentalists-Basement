@@ -55,8 +55,8 @@ list-style: none;
 .menu li a:hover{
     color: #3da6ff;
 }
-.menu li :link{
-    color: #3da6ff;
+.menu li :active{
+    color:#ddd;
 }
 /* end of header */
 
